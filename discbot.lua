@@ -10,6 +10,8 @@ client:on('messageCreate', function(message)
 	if message.content == '//+ wake up' then
 		message.channel:send([[Goog Morgning!
 It is I, DiscBot, at your service!]])
+	elseif message.content == '//+ hug' then
+		message.channel:send("Work in Progress!")
 	end
 end)
 
