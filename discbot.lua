@@ -1,7 +1,9 @@
 local discordia = require('discordia')
 local client = discordia.Client()
-local exreg = io.open("/discbot.dat/discbot_levels_v1")
-
+--local exreg = io.open("/discbot.dat/discbot_levels_v1")
+inreg = {
+--hug
+}
 client:on('ready', function()
 	print('Logged in as '.. client.user.username)
 end)
